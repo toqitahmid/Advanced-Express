@@ -34,7 +34,8 @@ const getUserController = async(req: Request, res: Response) => {
 const getUserByIdController = async(req: Request, res: Response) => {
   try{
     const id  = req.params.id;
-    method = "GET"
+    method = "GET";
+    console.log("from controller",req.user, req.body);
     const result = await getUserById(id);
     if (result.rowCount === 0) {
       res.status(404).json({

@@ -23,6 +23,7 @@ export const auth = async (req: Request, res: Response, next: NextFunction) => {
         message: "User not found!!"
       });
     }
+    req.user = decode;
     next()
   } catch (error) {}
 };
