@@ -13,8 +13,8 @@ const corsOption = {
     optionSuccessStatus: 200,
 }
 
-app.use(logger)
 app.use(cors(corsOption))
+app.use(logger);
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/profile", profileRoute);
 app.use("/api/v1/auth", authRouter)
