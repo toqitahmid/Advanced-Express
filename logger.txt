@@ -24,3 +24,12 @@ Method: GET | URL: /api/v1/users/2 | Time: 1795695314048
 Method: GET | URL: /api/v1/users/2 | Time: 1795695910071
 Method: GET | URL: /api/v1/users/2 | Time: 1795697421213
 Method: GET | URL: /api/v1/users/2 | Time: 1795697567233
+Method: POST | URL: /api/v1/users | Time: 1795765349622
+Method: POST | URL: /api/v1/users | Time: 1795765413789
+Method: POST | URL: /api/v1/users | Time: 1795765429282
+Method: POST | URL: /api/v1/users | Time: 1795765631486
+Method: POST | URL: /api/v1/users | Time: 1795766060329
+Method: POST | URL: /api/v1/users | Time: 1795766076772
+Method: POST | URL: /api/v1/users | Time: 1795766095256
+Method: POST | URL: /api/v1/users | Time: 1795766319973
+Method: POST | URL: /api/v1/profile/ | Time: 1795766379907
